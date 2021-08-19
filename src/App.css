@@ -1,0 +1,94 @@
+.App {
+  /* text-align: center;
+  margin-top: 200px; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ /* CSS */
+.test1{
+  
+  width: 300px;
+  background-color: #282c34;
+  position: relative;
+}
+.test2
+{
+  height: 250px;
+  width: 300px;
+  
+  
+}
+.sample_image{
+  width: 100%;
+  height: 110%;
+}
+.test3
+{
+  width: 50%;
+  background-color: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.test4
+{
+  color: #fff;
+  width: 86%;
+  background-color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.test5,.test6
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.test7{
+  font-size: 20px;
+  border: 5px solid #000;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.main
+{
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 10px;
+  display: inline-flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+
+}
